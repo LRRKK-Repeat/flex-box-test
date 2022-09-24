@@ -1,12 +1,16 @@
 body {display: block;}
 
+body > * {
+    box-sizing: border-box
+}
+
 /* containers */
 
 .cont-one,
 .cont-two,
 .cont-three {
     display: flex;
-    height: 500px;
+    min-height: 500px;
 }
 
 .cont-one {
@@ -15,13 +19,27 @@ body {display: block;}
 
 .cont-two {
     background-color: greenyellow;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 .cont-three {
     background-color: rgb(202, 155, 155);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 1000px;
 }
 
 /*cont-one flex items*/
+
+.one-one,
+.one-two,
+.one-three {
+    margin: 10px;
+}
 
 .one-one {
     width: 250px;
@@ -30,9 +48,11 @@ body {display: block;}
 }
 
 .one-two {
-    width: 250px;
+    width: 250px; 
     height: 250px;
     border: white dotted 4px;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .one-three {
@@ -44,25 +64,49 @@ body {display: block;}
 /*cont-two flex items*/
 
 .two-one {
-    width: 250px;
+    flex: 3;
     height: 250px;
     border: black solid 4px;
 }
 
 .two-two {
-    width: 250px;
+    flex: 1;
     height: 250px;
     border: white dotted 4px;
 }
 
 .two-three {
-    width: 250px;
+    flex: 1;
     height: 250px;
     border: black solid 4px;
 }
 
 .two-four {
-    width: 250px;
+    flex: 2;
+    height: 250px;
+    border: white dotted 4px;
+}
+
+.two-five {
+    flex: 2;
+    height: 250px;
+    border: black solid 4px;
+}
+
+.two-six {
+    flex: 1;
+    height: 250px;
+    border: white dotted 4px;
+}
+
+.two-seven {
+    flex: 1;
+    height: 250px;
+    border: black solid 4px;
+}
+
+.two-eight {
+    flex: 3;
     height: 250px;
     border: white dotted 4px;
 }
@@ -70,7 +114,7 @@ body {display: block;}
 /*cont-three flex items*/
 
 .three-one {
-    width: 250px;
+    width: 500px;
     height: 250px;
     border: black solid 4px;
 }
