@@ -1,4 +1,74 @@
-h1 {
-    font-weight: 100;
-    color: green;
+.cont-one,
+.cont-two,
+.cont-three {
+    display: flex;
+    height: 500px;
+}
+
+body { display: block;   }
+
+.cont-one {
+    background-color: aqua;
+}
+
+.cont-two {
+    background-color: greenyellow;
+}
+
+.cont-three {
+    background-color: rgb(202, 155, 155);
+}
+
+.one-one {
+    width: 250px;
+    height: 250px;
+    border: black solid 4px;
+}
+
+.one-two {
+    width: 250px;
+    height: 250px;
+    border: white dotted 4px;
+}
+
+.one-three {
+    width: 250px;
+    height: 250px;
+    border: black solid 4px;
+}
+
+.two-one {
+    width: 250px;
+    height: 250px;
+    border: black solid 4px;
+}
+
+.two-two {
+    width: 250px;
+    height: 250px;
+    border: white dotted 4px;
+}
+
+.two-three {
+    width: 250px;
+    height: 250px;
+    border: black solid 4px;
+}
+
+.two-four {
+    width: 250px;
+    height: 250px;
+    border: white dotted 4px;
+}
+
+.three-one {
+    width: 250px;
+    height: 250px;
+    border: black solid 4px;
+}
+
+.three-two {
+    width: 250px;
+    height: 250px;
+    border: white dotted 4px;
 }
