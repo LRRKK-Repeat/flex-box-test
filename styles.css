@@ -1,11 +1,13 @@
+body {display: block;}
+
+/* containers */
+
 .cont-one,
 .cont-two,
 .cont-three {
     display: flex;
     height: 500px;
 }
-
-body { display: block;   }
 
 .cont-one {
     background-color: aqua;
@@ -18,6 +20,8 @@ body { display: block;   }
 .cont-three {
     background-color: rgb(202, 155, 155);
 }
+
+/*cont-one flex items*/
 
 .one-one {
     width: 250px;
@@ -36,6 +40,8 @@ body { display: block;   }
     height: 250px;
     border: black solid 4px;
 }
+
+/*cont-two flex items*/
 
 .two-one {
     width: 250px;
@@ -60,6 +66,8 @@ body { display: block;   }
     height: 250px;
     border: white dotted 4px;
 }
+
+/*cont-three flex items*/
 
 .three-one {
     width: 250px;
